@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate  jelly="true" object="true"  var="jvar_groups">
+		var RESTRequest = global.RESTRequest;
+		var pass = new GlideEncrypter().decrypt('$[current.u_uat_target_environment.u_auth_profile.password]');
+		var result = null;
+		RESTRequest.get({
+			endpoint: '$[current.u_uat_target_environment.u_env_address]' + '/api/now/table/sys_user_group?sysparm_fields=sys_id,name&amp;sysparm_query=active=true',
+			auth: {
+				username: '$[current.u_uat_target_environment.u_auth_profile.username]',
+				password: pass
+			}
+		},
+		function(error, answer) {
+			if (error || !answer) {
+				return result;
+			}
+			result = answer.result.sort(function(a, b) {
+				return a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1;
+			});
+			return result;
+		})
+	</g2:evaluate>
+	<style>
+		.group-form-group {
+		text-align: center;
+		margin-top: 50px;
+		}
+	</style>
+	<body class="userBodyClass">
+		<div class="group-form-group">
+			<h3>Assignment group: &#160;<span id="assignment_group_span"></span></h3>
+			<j2:if test="$[jvar_groups.length == undefined]">Please select a valid UAT target env and auth profile in order to load the available assignment groups</j2:if>
+			<j2:if test="$[jvar_groups.length >= 0]">
+				<select class="form-control" style="width: 50%;margin-left: 25%" id="approvalSelectGroup" onchange="selectChangeGroup()">
+					<option value="none"></option>
+					<j2:forEach items="$[jvar_groups]" var="jvar_group">
+						<option value="$[jvar_group.sys_id]">$[jvar_group.name]</option>
+					</j2:forEach>
+				</select>
+				<br></br>
+				<button type="button" onclick="clearSelectedGroup()">Clear selected appprover</button>
+			</j2:if>
+		</div>
+		<script>
+			function markSelectedGroup() {
+				var uatPairs = g_form.getValue('u_uat_test_group');
+			
+				if(!uatPairs) {
+					return;
+				}
+				
+				var options = Array.prototype.slice.call(gel('approvalSelectGroup').options);
+	
+					options.some(function(opt, index) {
+						if(opt.value == uatPairs) {
+							opt.selected = true;
+							gel('assignment_group_span').innerText = opt.text;
+							return true;
+						}
+			
+						return false;
+					});
+			}
+			
+			addLoadEvent(function() {  
+				markSelectedGroup();  
+			});
+			
+			function selectChangeGroup() {
+				var options = gel('approvalSelectGroup').options;
+				var selectedIndex = options.selectedIndex;
+				if(selectedIndex &gt; 0) {
+					g_form.setValue('u_uat_test_group', options[selectedIndex].value);
+					gel('assignment_group_span').innerText = options[selectedIndex].text;
+				} else {
+					g_form.clearValue('u_uat_test_group');
+					gel('assignment_group_span').innerText = '';
+				}
+			}
+			
+			function clearSelectedGroup() {
+				g_form.clearValue('u_uat_test_group');
+				gel('assignment_group_span').innerText = '';
+				gel('approvalSelectGroup').options.selectedIndex = -1;
+			}
+		</script>
+	</body>
+</j:jelly>

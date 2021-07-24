@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate  jelly="true" object="true"  var="jvar_users">
+		var RESTRequest = global.RESTRequest;
+		var pass = new GlideEncrypter().decrypt('$[current.u_uat_target_environment.u_auth_profile.password]');
+		var result = null;
+		RESTRequest.get({
+			endpoint: '$[current.u_uat_target_environment.u_env_address]' + '/api/now/table/sys_user?sysparm_fields=sys_id,name&amp;sysparm_query=active=true',
+			auth: {
+				username: '$[current.u_uat_target_environment.u_auth_profile.username]',
+				password: pass
+			}
+		},
+		function(error, answer) {
+			if (error || !answer) {
+				return result;
+			}
+			result = answer.result.sort(function(a, b) {
+				return a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1;
+			});
+			return result;
+		})
+	</g2:evaluate>
+	<style>
+		.user-form-group {
+		text-align: center;
+		margin-top: 50px;
+		}
+	</style>
+	<body class="userBodyClass">
+		<div class="user-form-group">
+			<h3>Assign to: &#160;<span id="assign_to_span"></span></h3>
+			<j2:if test="$[jvar_users.length == undefined]">Please select a valid UAT target env and auth profile in order to load the available approvers</j2:if>
+			<j2:if test="$[jvar_users.length >= 0]">
+				<select class="form-control" style="width: 50%;margin-left: 25%" id="approvalSelect" onchange="selectChangeUser()">
+					<option value="none"></option>
+					<j2:forEach items="$[jvar_users]" var="jvar_user">
+						<option value="$[jvar_user.sys_id]">$[jvar_user.name]</option>
+					</j2:forEach>
+				</select>
+				<br></br>
+				<button type="button" onclick="clearSelectedUser()">Clear selected appprover</button>
+			</j2:if>
+		</div>
+		<script>
+			function markSelectedUser() {
+				var uatId = g_form.getValue('u_uat_test_user');
+			
+				if(!uatId) {
+					return;
+				}
+				
+				var options = Array.prototype.slice.call(gel('approvalSelect').options);
+				console.log(options);
+					options.some(function(opt, index) {
+						if(opt.value == uatId) {
+							opt.selected = true;
+							gel('assign_to_span').innerText = opt.text;
+							return true;
+						}
+			
+						return false;
+					});
+			}
+			
+			addLoadEvent(function() {  
+				markSelectedUser();  
+			});
+			
+			function selectChangeUser() {
+				var options = gel('approvalSelect').options;
+				var selectedIndex = options.selectedIndex;
+				if(selectedIndex &gt; 0) {
+					g_form.setValue('u_uat_test_user', options[selectedIndex].value);
+					gel('assign_to_span').innerText = options[selectedIndex].text;
+				} else {
+					g_form.clearValue('u_uat_test_user');
+					gel('assign_to_span').innerText = '';
+				}
+			}
+			
+			function clearSelectedUser() {
+				g_form.clearValue('u_uat_test_user');
+				gel('assign_to_span').innerText = '';
+				gel('approvalSelect').options.selectedIndex = -1;
+			
+			}
+		</script>
+	</body>
+</j:jelly>

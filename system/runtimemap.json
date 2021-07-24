@@ -1,0 +1,1275 @@
+{
+  "system": {
+    "sys_user_role": true,
+    "agent_assist_recommendation": true,
+    "asmt_metric": true,
+    "asmt_signature": true,
+    "sys_atf_step_config": true,
+    "sys_atf_step": true,
+    "sys_client_extension_point": true,
+    "sys_script_client": true,
+    "dl_u_priority": true,
+    "sys_ui_extension_point": true,
+    "sys_ui_policy": true,
+    "sys_ui_script": true,
+    "connect_action": true,
+    "content_block": true,
+    "content_block_detail": true,
+    "content_block_programmatic": true,
+    "content_block_static": true,
+    "content_css": true,
+    "cxs_table_config": true,
+    "sys_relationship": true,
+    "sys_db_object": true,
+    "sys_email_client_template": true,
+    "sys_email_canned_message": true,
+    "sys_recipient_qualifier": true,
+    "sys_ui_context_menu": true,
+    "sys_embedded_help_content": true,
+    "sys_ui_list_control": true,
+    "cmn_map_page": true,
+    "cmn_schedule_page": true,
+    "sys_ui_style": true,
+    "cmn_timeline_page": true,
+    "sys_ui_macro": true,
+    "sys_ui_page": true,
+    "sysrule_view": true,
+    "sys_embedded_tour_step": true,
+    "scheduled_data_import": true,
+    "sys_ws_operation": true,
+    "sys_web_service": true,
+    "sys_transform_map": true,
+    "mid_selector_override": true,
+    "ecc_agent_capability": true,
+    "ecc_agent_capability_value_test": true,
+    "ecc_agent_property": true,
+    "ecc_agent_script_include": true,
+    "sys_script_ajax": true,
+    "process_step_approval": true,
+    "bsm_action": true,
+    "ci_identifier": true,
+    "discovery_classy": true,
+    "clone_cleanup_script": true,
+    "csm_field_map": true,
+    "csm_table_map": true,
+    "sys_declarative_action_assignment": true,
+    "diagrammer_action": true,
+    "sys_dictionary": true,
+    "discovery_port_probe": true,
+    "sys_ui_title": true,
+    "sys_transform_entry": true,
+    "sys_impex_map": true,
+    "sys_installation_exit": true,
+    "sys_ui_list_script_client": true,
+    "sys_ui_list_script_server": true,
+    "live_table_notification": true,
+    "mtg_definition": true,
+    "sys_navigator": true,
+    "sys_nav_link": true,
+    "pwd_cred_store": true,
+    "pwd_extension_type": true,
+    "discovery_probes": true,
+    "expert_panel_template": true,
+    "sysauto_query_builder": true,
+    "sysauto": true,
+    "sys_service_api": true,
+    "sysevent_email_style": true,
+    "chg_soc_style_rule_core": true,
+    "sys_listener_detail": true,
+    "sys_transform_script": true,
+    "item_option_new": true,
+    "sys_home": true,
+    "expert_panel_transition": true,
+    "expert_panel": true,
+    "expert_ui_policy": true,
+    "sys_app_module": true,
+    "sys_ui_module": true,
+    "sys_script_email": true,
+    "sysevent_email_template": true,
+    "sysevent_in_email_action": true,
+    "sysevent_email_action": true,
+    "sys_push_notif_act_script": true,
+    "sys_push_notif_msg_content": true,
+    "trigger_rule": true,
+    "sys_rest_message": true,
+    "scheduled_data_export": true,
+    "sys_soap_message_function": true,
+    "sys_soap_message": true,
+    "pa_scripts": true,
+    "pc_vendor_cat_item": true,
+    "sys_properties_category": true,
+    "metric_definition": true,
+    "sysauto_report": true,
+    "cmn_relative_duration": true,
+    "risk_conditions": true,
+    "cmn_schedule": true,
+    "sys_script": true,
+    "sys_extension_point": true,
+    "sys_script_fix": true,
+    "sys_processor": true,
+    "sysauto_script": true,
+    "sysevent_script_action": true,
+    "sys_script_include": true,
+    "sys_ui_action": true,
+    "sc_ic_aprvl_type_defn_staging": true,
+    "catalog_script_client": true,
+    "sc_cat_item": true,
+    "catalog_ui_policy": true,
+    "sc_cat_item_option": true,
+    "sc_cat_item_guide": true,
+    "sc_cat_item_producer": true,
+    "sc_ic_task_assign_defn_staging": true,
+    "user_criteria": true,
+    "sysrule_escalate": true,
+    "sp_ng_template": true,
+    "sp_instance": true,
+    "sp_search_source": true,
+    "sp_page": true,
+    "sp_portal": true,
+    "sp_css": true,
+    "sp_theme": true,
+    "sp_angular_provider": true,
+    "sp_widget": true,
+    "trend_definition": true,
+    "sys_ui_ng_action": true,
+    "sys_script_vtable": true,
+    "sn_templated_snip_note_template": true,
+    "sys_script_validator": true,
+    "sys_email_filter": true,
+    "sys_sg_data_item": true,
+    "sys_email_layout": true,
+    "sys_process_flow": true,
+    "sys_widgets": true,
+    "wf_element_activity": true,
+    "wf_activity_definition": true,
+    "wf_ui_policy": true
+  },
+  "Navigation": {
+    "Modules": {
+      "Deployment Planing": {
+        "sys_id": "006d5ebfdbea101057182bfa4b961905"
+      },
+      "Environment Config": {
+        "sys_id": "1201b3b2db0b80506c8159b2ca961962"
+      },
+      "Deployment Test Tasks": {
+        "sys_id": "27520454db7a501057182bfa4b9619bd"
+      },
+      "All Deployments": {
+        "sys_id": "39b5c8dedbe2101057182bfa4b9619b0"
+      },
+      "Create New": {
+        "sys_id": "3d93cabedb62101034f3e37a48961932"
+      },
+      "My Deployments": {
+        "sys_id": "61d5ccdedbe2101057182bfa4b961932"
+      },
+      "Deployment Paths": {
+        "sys_id": "62e1c13bdb2a101057182bfa4b9619c9"
+      },
+      "Environments": {
+        "sys_id": "691eb477db2a101057182bfa4b9619d5"
+      },
+      "Deployment Release Windows": {
+        "sys_id": "6a2e5f8bdb0f101057182bfa4b961910"
+      },
+      "Testing": {
+        "sys_id": "6fa3c422dbfa501057182bfa4b9619ed"
+      },
+      "Awaiting fix": {
+        "sys_id": "718e872ddb92101057182bfa4b961939"
+      },
+      "Ready For Deployment": {
+        "sys_id": "7e205adcdbe304106c8159b2ca961922"
+      },
+      "Configuration": {
+        "sys_id": "b6e0b7b2db0b80506c8159b2ca961944"
+      },
+      "Pipeline Workers": {
+        "sys_id": "c04f74aedb0f00506c8159b2ca961936"
+      },
+      "Deployment Plans": {
+        "sys_id": "e25504dedbe2101057182bfa4b9619f3"
+      },
+      "Deployment Entry Trackers": {
+        "sys_id": "e7162744db33101057182bfa4b961975"
+      },
+      "Deployments": {
+        "sys_id": "f9ff86dcdbe304106c8159b2ca961939"
+      }
+    },
+    "Modules (Mobile)": {
+      "Deployment Entry Trackers": {
+        "sys_id": "77162744db33101057182bfa4b961989"
+      }
+    }
+  },
+  "Miscellaneous": {
+    "Dictionary Entries": {
+      "Start hour": {
+        "sys_id": "0f899bc7db0f101057182bfa4b96190e",
+        "sys_updated_on": "2020-10-15 10:10:43",
+        "SERVER_MOD_TIME": 1602736843000,
+        "LOCAL_MOD_TIME": 1627121001374
+      },
+      "State": {
+        "sys_id": "0d157ec22fc69010b9f9ffecf699b628",
+        "sys_updated_on": "2020-10-15 10:10:48",
+        "SERVER_MOD_TIME": 1602736848000,
+        "LOCAL_MOD_TIME": 1627121001412
+      },
+      "Deployment Path": {
+        "sys_id": "0247a9bfdb6a101057182bfa4b9619ab",
+        "sys_updated_on": "2020-10-15 10:10:40",
+        "SERVER_MOD_TIME": 1602736840000,
+        "LOCAL_MOD_TIME": 1627121001459
+      },
+      "Release Windows": {
+        "sys_id": "0956bbc3db4f101057182bfa4b961957",
+        "sys_updated_on": "2020-10-15 10:10:41",
+        "SERVER_MOD_TIME": 1602736841000,
+        "LOCAL_MOD_TIME": 1627121002562
+      },
+      "Raise change request": {
+        "sys_id": "02d5b33ddba3101057182bfa4b96194f",
+        "sys_updated_on": "2020-10-15 10:10:47",
+        "SERVER_MOD_TIME": 1602736847000,
+        "LOCAL_MOD_TIME": 1627121002557
+      },
+      "Rejection reason": {
+        "sys_id": "09262f04db33101057182bfa4b96191c",
+        "sys_updated_on": "2020-10-15 10:10:38",
+        "SERVER_MOD_TIME": 1602736838000,
+        "LOCAL_MOD_TIME": 1627121002574
+      },
+      "Deployment Plan": {
+        "sys_id": "fed4f2062fc69010b9f9ffecf699b624",
+        "sys_updated_on": "2020-10-15 10:10:47",
+        "SERVER_MOD_TIME": 1602736847000,
+        "LOCAL_MOD_TIME": 1627121003244
+      },
+      "UAT TEST GROUP": {
+        "sys_id": "fd7fa4f8db7e901057182bfa4b9619a3",
+        "sys_updated_on": "2020-10-15 10:10:44",
+        "SERVER_MOD_TIME": 1602736844000,
+        "LOCAL_MOD_TIME": 1627121003272
+      },
+      "Run Tests": {
+        "sys_id": "fbec3731dbe3101057182bfa4b961953",
+        "sys_updated_on": "2020-10-15 10:10:44",
+        "SERVER_MOD_TIME": 1602736844000,
+        "LOCAL_MOD_TIME": 1627121003317
+      },
+      "UAT State": {
+        "sys_id": "f609eb44db33101057182bfa4b961952",
+        "sys_updated_on": "2020-10-15 10:10:38",
+        "SERVER_MOD_TIME": 1602736838000,
+        "LOCAL_MOD_TIME": 1627121003360
+      },
+      "Tests": {
+        "sys_id": "f4eb2944dbd2101057182bfa4b9619c2",
+        "sys_updated_on": "2020-10-15 10:10:44",
+        "SERVER_MOD_TIME": 1602736844000,
+        "LOCAL_MOD_TIME": 1627121003593
+      },
+      "Config JSON": {
+        "sys_id": "f3497f6adb0b40506c8159b2ca9619b7",
+        "sys_updated_on": "2020-10-15 10:10:41",
+        "SERVER_MOD_TIME": 1602736841000,
+        "LOCAL_MOD_TIME": 1627121003645
+      },
+      "State_ef440230db72d01057182bfa4b961905": {
+        "sys_id": "ef440230db72d01057182bfa4b961905",
+        "sys_updated_on": "2020-10-15 10:10:46",
+        "SERVER_MOD_TIME": 1602736846000,
+        "LOCAL_MOD_TIME": 1627121004053
+      },
+      "State_e7d6eb44db33101057182bfa4b96194b": {
+        "sys_id": "e7d6eb44db33101057182bfa4b96194b",
+        "sys_updated_on": "2020-10-15 10:10:38",
+        "SERVER_MOD_TIME": 1602736838000,
+        "LOCAL_MOD_TIME": 1627121004137
+      },
+      "Pipeline Worker": {
+        "sys_id": "e5172384db33101057182bfa4b9619a7",
+        "sys_updated_on": "2020-10-15 10:10:38",
+        "SERVER_MOD_TIME": 1602736838000,
+        "LOCAL_MOD_TIME": 1627121004277
+      },
+      "Local Update Set": {
+        "sys_id": "e037a384db33101057182bfa4b96190b",
+        "sys_updated_on": "2020-10-15 10:10:38",
+        "SERVER_MOD_TIME": 1602736838000,
+        "LOCAL_MOD_TIME": 1627121004304
+      },
+      "Parent": {
+        "sys_id": "dfcf1b6edb8740506c8159b2ca961981",
+        "sys_updated_on": "2020-10-15 10:10:48",
+        "SERVER_MOD_TIME": 1602736848000,
+        "LOCAL_MOD_TIME": 1627121004350
+      },
+      "Type": {
+        "sys_id": "d6f77a862fc69010b9f9ffecf699b608",
+        "sys_updated_on": "2020-10-15 10:10:49",
+        "SERVER_MOD_TIME": 1602736849000,
+        "LOCAL_MOD_TIME": 1627121004779
+      },
+      "Source Environment": {
+        "sys_id": "caf632862fc69010b9f9ffecf699b68f",
+        "sys_updated_on": "2020-10-15 10:10:48",
+        "SERVER_MOD_TIME": 1602736848000,
+        "LOCAL_MOD_TIME": 1627121005144
+      },
+      "Deployment ID": {
+        "sys_id": "c1b2aaf0dbb2d01057182bfa4b96190b",
+        "sys_updated_on": "2020-10-15 10:10:45",
+        "SERVER_MOD_TIME": 1602736845000,
+        "LOCAL_MOD_TIME": 1627121005779
+      },
+      "Manual Investigation Link": {
+        "sys_id": "c68ebc6cdba2501034f3e37a48961934",
+        "sys_updated_on": "2020-10-15 10:10:39",
+        "SERVER_MOD_TIME": 1602736839000,
+        "LOCAL_MOD_TIME": 1627121005881
+      },
+      "Manual Investigation Link_ba257ec22fc69010b9f9ffecf699b629": {
+        "sys_id": "ba257ec22fc69010b9f9ffecf699b629",
+        "sys_updated_on": "2020-10-15 10:10:47",
+        "SERVER_MOD_TIME": 1602736847000,
+        "LOCAL_MOD_TIME": 1627121005982
+      },
+      "Name": {
+        "sys_id": "b86ef877db2a101057182bfa4b9619d4",
+        "sys_updated_on": "2020-10-15 10:10:46",
+        "SERVER_MOD_TIME": 1602736846000,
+        "LOCAL_MOD_TIME": 1627121006177
+      },
+      "Raise UAT Task": {
+        "sys_id": "b3ec3731dbe3101057182bfa4b961964",
+        "sys_updated_on": "2020-10-15 10:10:44",
+        "SERVER_MOD_TIME": 1602736844000,
+        "LOCAL_MOD_TIME": 1627121007030
+      },
+      "Deployed by": {
+        "sys_id": "ab8dd6bcdb72d01057182bfa4b961926",
+        "sys_updated_on": "2020-10-15 10:10:39",
+        "SERVER_MOD_TIME": 1602736839000,
+        "LOCAL_MOD_TIME": 1627121008595
+      },
+      "Environment": {
+        "sys_id": "ad8769bfdb6a101057182bfa4b96193b",
+        "sys_updated_on": "2020-10-15 10:10:40",
+        "SERVER_MOD_TIME": 1602736840000,
+        "LOCAL_MOD_TIME": 1627121008595
+      },
+      "Description": {
+        "sys_id": "a229ff2adb0b40506c8159b2ca96196b",
+        "sys_updated_on": "2020-10-15 10:10:42",
+        "SERVER_MOD_TIME": 1602736842000,
+        "LOCAL_MOD_TIME": 1627121008636
+      },
+      "Rejection reason_9b8b5905db32101057182bfa4b961978": {
+        "sys_id": "9b8b5905db32101057182bfa4b961978",
+        "sys_updated_on": "2020-10-15 10:10:45",
+        "SERVER_MOD_TIME": 1602736845000,
+        "LOCAL_MOD_TIME": 1627121009006
+      },
+      "Rejection note": {
+        "sys_id": "9b86af04db33101057182bfa4b961964",
+        "sys_updated_on": "2020-10-15 10:10:38",
+        "SERVER_MOD_TIME": 1602736838000,
+        "LOCAL_MOD_TIME": 1627121009271
+      },
+      "Rejection note_949c1505db32101057182bfa4b961971": {
+        "sys_id": "949c1505db32101057182bfa4b961971",
+        "sys_updated_on": "2020-10-15 10:10:45",
+        "SERVER_MOD_TIME": 1602736845000,
+        "LOCAL_MOD_TIME": 1627121009514
+      },
+      "u_deployment_release_windows": {
+        "sys_id": "90d45b07db0f101057182bfa4b961920",
+        "sys_updated_on": "2021-06-13 10:33:08",
+        "SERVER_MOD_TIME": 1623560588000,
+        "LOCAL_MOD_TIME": 1627121009558
+      },
+      "Type_8fffffc0db7a501057182bfa4b961994": {
+        "sys_id": "8fffffc0db7a501057182bfa4b961994",
+        "sys_updated_on": "2020-10-15 10:10:44",
+        "SERVER_MOD_TIME": 1602736844000,
+        "LOCAL_MOD_TIME": 1627121009658
+      },
+      "u_pipeline_worker": {
+        "sys_id": "8bc4f2062fc69010b9f9ffecf699b645",
+        "sys_updated_on": "2021-07-23 10:33:43",
+        "SERVER_MOD_TIME": 1627016623000,
+        "LOCAL_MOD_TIME": 1627121009938
+      },
+      "Deployment Entry ID": {
+        "sys_id": "87c6e744db33101057182bfa4b961901",
+        "sys_updated_on": "2020-10-15 10:10:37",
+        "SERVER_MOD_TIME": 1602736837000,
+        "LOCAL_MOD_TIME": 1627121009938
+      },
+      "u_deployment_path_step": {
+        "sys_id": "873769bfdb6a101057182bfa4b96191b",
+        "sys_updated_on": "2021-06-13 10:33:08",
+        "SERVER_MOD_TIME": 1623560588000,
+        "LOCAL_MOD_TIME": 1627121010210
+      },
+      "Update Set": {
+        "sys_id": "7805f6062fc69010b9f9ffecf699b690",
+        "sys_updated_on": "2020-10-15 10:10:48",
+        "SERVER_MOD_TIME": 1602736848000,
+        "LOCAL_MOD_TIME": 1627121010477
+      },
+      "UAT Test Group Reference": {
+        "sys_id": "7714c55bdb9c2c10389f3951f3961913",
+        "sys_updated_on": "2020-11-10 20:55:45",
+        "SERVER_MOD_TIME": 1605021945000,
+        "LOCAL_MOD_TIME": 1627121010797
+      },
+      "Sender Env Config": {
+        "sys_id": "754d3075db32101057182bfa4b961919",
+        "sys_updated_on": "2020-10-15 10:10:46",
+        "SERVER_MOD_TIME": 1602736846000,
+        "LOCAL_MOD_TIME": 1627121010981
+      },
+      "Description_74511e65db12101057182bfa4b961963": {
+        "sys_id": "74511e65db12101057182bfa4b961963",
+        "sys_updated_on": "2020-10-15 10:10:39",
+        "SERVER_MOD_TIME": 1602736839000,
+        "LOCAL_MOD_TIME": 1627121011241
+      },
+      "u_deployment_path": {
+        "sys_id": "6ee1c13bdb2a101057182bfa4b9619e4",
+        "sys_updated_on": "2021-06-13 10:33:08",
+        "SERVER_MOD_TIME": 1623560588000,
+        "LOCAL_MOD_TIME": 1627121011457
+      },
+      "Parent_6c61da65db12101057182bfa4b961953": {
+        "sys_id": "6c61da65db12101057182bfa4b961953",
+        "sys_updated_on": "2020-10-15 10:10:40",
+        "SERVER_MOD_TIME": 1602736840000,
+        "LOCAL_MOD_TIME": 1627121011514
+      },
+      "Order": {
+        "sys_id": "6bf7e1ffdb6a101057182bfa4b961942",
+        "sys_updated_on": "2020-10-15 10:10:41",
+        "SERVER_MOD_TIME": 1602736841000,
+        "LOCAL_MOD_TIME": 1627121011689
+      },
+      "u_deployment_step": {
+        "sys_id": "690d1029db42101034f3e37a48961983",
+        "sys_updated_on": "2020-12-05 11:36:23",
+        "SERVER_MOD_TIME": 1607148383000,
+        "LOCAL_MOD_TIME": 1627121012033
+      },
+      "Queue State": {
+        "sys_id": "6ada353adbc924904f73498039961962",
+        "sys_updated_on": "2020-12-16 21:08:29",
+        "SERVER_MOD_TIME": 1608133109000,
+        "LOCAL_MOD_TIME": 1627121012066
+      },
+      "End day": {
+        "sys_id": "68a997c7db0f101057182bfa4b9619e4",
+        "sys_updated_on": "2020-10-15 10:10:42",
+        "SERVER_MOD_TIME": 1602736842000,
+        "LOCAL_MOD_TIME": 1627121012090
+      },
+      "Name_67b283e2db4740506c8159b2ca96198d": {
+        "sys_id": "67b283e2db4740506c8159b2ca96198d",
+        "sys_updated_on": "2020-10-15 10:10:43",
+        "SERVER_MOD_TIME": 1602736843000,
+        "LOCAL_MOD_TIME": 1627121012247
+      },
+      "Deployment Config": {
+        "sys_id": "653c7e4a2fc69010b9f9ffecf699b60c",
+        "sys_updated_on": "2020-10-15 10:10:47",
+        "SERVER_MOD_TIME": 1602736847000,
+        "LOCAL_MOD_TIME": 1627121012247
+      },
+      "u_environments": {
+        "sys_id": "651ef477db2a101057182bfa4b961927",
+        "sys_updated_on": "2021-06-13 10:33:08",
+        "SERVER_MOD_TIME": 1623560588000,
+        "LOCAL_MOD_TIME": 1627121012264
+      },
+      "Feedback": {
+        "sys_id": "64bd3e16db3a501057182bfa4b961909",
+        "sys_updated_on": "2020-10-15 10:10:39",
+        "SERVER_MOD_TIME": 1602736839000,
+        "LOCAL_MOD_TIME": 1627121012605
+      },
+      "u_deployment_entry": {
+        "sys_id": "5f5242dcdba304106c8159b2ca961992",
+        "sys_updated_on": "2021-07-23 10:33:38",
+        "SERVER_MOD_TIME": 1627016618000,
+        "LOCAL_MOD_TIME": 1627121012686
+      },
+      "Environment address": {
+        "sys_id": "58ee34b7db2a101057182bfa4b96190b",
+        "sys_updated_on": "2020-10-15 10:10:46",
+        "SERVER_MOD_TIME": 1602736846000,
+        "LOCAL_MOD_TIME": 1627121013014
+      },
+      "Deployment Path_545c85bcdbbe901057182bfa4b9619c1": {
+        "sys_id": "545c85bcdbbe901057182bfa4b9619c1",
+        "sys_updated_on": "2020-10-15 10:10:41",
+        "SERVER_MOD_TIME": 1602736841000,
+        "LOCAL_MOD_TIME": 1627121013186
+      },
+      "End hour": {
+        "sys_id": "53a9d787db0f101057182bfa4b961960",
+        "sys_updated_on": "2020-10-15 10:10:42",
+        "SERVER_MOD_TIME": 1602736842000,
+        "LOCAL_MOD_TIME": 1627121013271
+      },
+      "Current Processing Environment": {
+        "sys_id": "51bbf64a2fc69010b9f9ffecf699b63c",
+        "sys_updated_on": "2020-10-15 10:10:47",
+        "SERVER_MOD_TIME": 1602736847000,
+        "LOCAL_MOD_TIME": 1627121013374
+      },
+      "Deployment Entry": {
+        "sys_id": "4fe4fac22fc69010b9f9ffecf699b6e8",
+        "sys_updated_on": "2020-10-15 10:10:47",
+        "SERVER_MOD_TIME": 1602736847000,
+        "LOCAL_MOD_TIME": 1627121013436
+      },
+      "UAT TEST USER": {
+        "sys_id": "4e7be038db7e901057182bfa4b961903",
+        "sys_updated_on": "2020-10-15 10:10:45",
+        "SERVER_MOD_TIME": 1602736845000,
+        "LOCAL_MOD_TIME": 1627121013580
+      },
+      "UAT Target Environment": {
+        "sys_id": "4e387eeadb72901057182bfa4b96193a",
+        "sys_updated_on": "2020-10-15 10:10:44",
+        "SERVER_MOD_TIME": 1602736844000,
+        "LOCAL_MOD_TIME": 1627121013633
+      },
+      "Number": {
+        "sys_id": "4cd4b6062fc69010b9f9ffecf699b68e",
+        "sys_updated_on": "2020-10-15 10:10:47",
+        "SERVER_MOD_TIME": 1602736847000,
+        "LOCAL_MOD_TIME": 1627121013793
+      },
+      "u_deployment_plan": {
+        "sys_id": "44193f6adb0b40506c8159b2ca9619e6",
+        "sys_updated_on": "2021-06-13 10:33:08",
+        "SERVER_MOD_TIME": 1623560588000,
+        "LOCAL_MOD_TIME": 1627121014115
+      },
+      "Number_407246dcdba304106c8159b2ca96196e": {
+        "sys_id": "407246dcdba304106c8159b2ca96196e",
+        "sys_updated_on": "2020-10-15 10:10:39",
+        "SERVER_MOD_TIME": 1602736839000,
+        "LOCAL_MOD_TIME": 1627121014271
+      },
+      "Description_4142093bdb2a101057182bfa4b9619df": {
+        "sys_id": "4142093bdb2a101057182bfa4b9619df",
+        "sys_updated_on": "2020-10-15 10:10:41",
+        "SERVER_MOD_TIME": 1602736841000,
+        "LOCAL_MOD_TIME": 1627121014288
+      },
+      "Authentication profile": {
+        "sys_id": "405fb8b7db2a101057182bfa4b961975",
+        "sys_updated_on": "2020-10-15 10:10:46",
+        "SERVER_MOD_TIME": 1602736846000,
+        "LOCAL_MOD_TIME": 1627121014312
+      },
+      "Name_3f3c1b4bdb0f101057182bfa4b9619e8": {
+        "sys_id": "3f3c1b4bdb0f101057182bfa4b9619e8",
+        "sys_updated_on": "2020-10-15 10:10:42",
+        "SERVER_MOD_TIME": 1602736842000,
+        "LOCAL_MOD_TIME": 1627121014500
+      },
+      "Name_3be1053bdb2a101057182bfa4b9619ef": {
+        "sys_id": "3be1053bdb2a101057182bfa4b9619ef",
+        "sys_updated_on": "2020-10-15 10:10:41",
+        "SERVER_MOD_TIME": 1602736841000,
+        "LOCAL_MOD_TIME": 1627121014518
+      },
+      "Name_3919bf6adb0b40506c8159b2ca9619b6": {
+        "sys_id": "3919bf6adb0b40506c8159b2ca9619b6",
+        "sys_updated_on": "2020-10-15 10:10:42",
+        "SERVER_MOD_TIME": 1602736842000,
+        "LOCAL_MOD_TIME": 1627121014550
+      },
+      "u_deployment_entry_tracker": {
+        "sys_id": "37162744db33101057182bfa4b9619b2",
+        "sys_updated_on": "2021-06-13 10:33:08",
+        "SERVER_MOD_TIME": 1623560588000,
+        "LOCAL_MOD_TIME": 1627121014822
+      },
+      "Deployment Number": {
+        "sys_id": "360a9e78db72d01057182bfa4b961951",
+        "sys_updated_on": "2020-10-15 10:10:45",
+        "SERVER_MOD_TIME": 1602736845000,
+        "LOCAL_MOD_TIME": 1627121014853
+      },
+      "Raise Change Request": {
+        "sys_id": "33ec3731dbe3101057182bfa4b961950",
+        "sys_updated_on": "2020-10-15 10:10:43",
+        "SERVER_MOD_TIME": 1602736843000,
+        "LOCAL_MOD_TIME": 1627121014883
+      },
+      "UAT TEST User Reference": {
+        "sys_id": "3104811bdb9c2c10389f3951f3961968",
+        "sys_updated_on": "2020-11-10 20:55:45",
+        "SERVER_MOD_TIME": 1605021945000,
+        "LOCAL_MOD_TIME": 1627121014954
+      },
+      "State_2bb40a90dbe304106c8159b2ca961915": {
+        "sys_id": "2bb40a90dbe304106c8159b2ca961915",
+        "sys_updated_on": "2020-10-15 10:10:40",
+        "SERVER_MOD_TIME": 1602736840000,
+        "LOCAL_MOD_TIME": 1627121015202
+      },
+      "u_deployment_test_task": {
+        "sys_id": "2b528854db7a501057182bfa4b961918",
+        "sys_updated_on": "2020-12-05 11:36:23",
+        "SERVER_MOD_TIME": 1607148383000,
+        "LOCAL_MOD_TIME": 1627121015237
+      },
+      "Deployment Plan_218abbeadb0b40506c8159b2ca9619fd": {
+        "sys_id": "218abbeadb0b40506c8159b2ca9619fd",
+        "sys_updated_on": "2020-10-15 10:10:43",
+        "SERVER_MOD_TIME": 1602736843000,
+        "LOCAL_MOD_TIME": 1627121015698
+      },
+      "u_worker_log_entry": {
+        "sys_id": "210d1029db42101034f3e37a48961993",
+        "sys_updated_on": "2021-07-23 10:33:44",
+        "SERVER_MOD_TIME": 1627016624000,
+        "LOCAL_MOD_TIME": 1627121015713
+      },
+      "Deployment Plan_206206dcdba304106c8159b2ca961908": {
+        "sys_id": "206206dcdba304106c8159b2ca961908",
+        "sys_updated_on": "2020-10-15 10:10:39",
+        "SERVER_MOD_TIME": 1602736839000,
+        "LOCAL_MOD_TIME": 1627121015907
+      },
+      "Deployment Entry Number": {
+        "sys_id": "1fa66b44db33101057182bfa4b961954",
+        "sys_updated_on": "2020-10-15 10:10:38",
+        "SERVER_MOD_TIME": 1602736838000,
+        "LOCAL_MOD_TIME": 1627121015953
+      },
+      "Update Set_18d202dcdba304106c8159b2ca96196d": {
+        "sys_id": "18d202dcdba304106c8159b2ca96196d",
+        "sys_updated_on": "2020-10-15 10:10:40",
+        "SERVER_MOD_TIME": 1602736840000,
+        "LOCAL_MOD_TIME": 1627121016176
+      },
+      "Environment_17a96533dbaa101057182bfa4b9619e5": {
+        "sys_id": "17a96533dbaa101057182bfa4b9619e5",
+        "sys_updated_on": "2020-10-15 10:10:43",
+        "SERVER_MOD_TIME": 1602736843000,
+        "LOCAL_MOD_TIME": 1627121016266
+      },
+      "Start day": {
+        "sys_id": "11d45fc3db0f101057182bfa4b961957",
+        "sys_updated_on": "2020-10-15 10:10:42",
+        "SERVER_MOD_TIME": 1602736842000,
+        "LOCAL_MOD_TIME": 1627121016396
+      },
+      "Message": {
+        "sys_id": "115776862fc69010b9f9ffecf699b6b2",
+        "sys_updated_on": "2020-10-15 10:10:48",
+        "SERVER_MOD_TIME": 1602736848000,
+        "LOCAL_MOD_TIME": 1627121016482
+      },
+      "Pipeline Worker_10ef39aedb0340506c8159b2ca961960": {
+        "sys_id": "10ef39aedb0340506c8159b2ca961960",
+        "sys_updated_on": "2020-10-15 10:10:48",
+        "SERVER_MOD_TIME": 1602736848000,
+        "LOCAL_MOD_TIME": 1627121016578
+      }
+    },
+    "Variables": {
+      "Description": {
+        "sys_id": "d191ac5ddbb8ac18389f3951f3961979",
+        "sys_updated_on": "2021-07-08 16:49:01",
+        "SERVER_MOD_TIME": 1625743141000,
+        "LOCAL_MOD_TIME": 1627121004908
+      },
+      "Select Updateset": {
+        "sys_id": "c0c06c55dbb8ac18389f3951f39619fe",
+        "sys_updated_on": "2021-07-08 16:49:03",
+        "SERVER_MOD_TIME": 1625743143000,
+        "LOCAL_MOD_TIME": 1627121005973
+      },
+      "Flows to be deployed": {
+        "sys_id": "b2d35f6bdb68205c4f7349803996194d",
+        "sys_updated_on": "2020-11-24 12:30:48",
+        "SERVER_MOD_TIME": 1606201248000,
+        "LOCAL_MOD_TIME": 1627121008016
+      },
+      "Autogenerated Updateset Name Format": {
+        "sys_id": "9626dba3dba8205c4f73498039961959",
+        "sys_updated_on": "2020-11-24 15:21:57",
+        "SERVER_MOD_TIME": 1606211517000,
+        "LOCAL_MOD_TIME": 1627121009371
+      },
+      "Select the form to be deployed": {
+        "sys_id": "78a29b27db68205c4f7349803996193a",
+        "sys_updated_on": "2020-11-24 12:15:09",
+        "SERVER_MOD_TIME": 1606200309000,
+        "LOCAL_MOD_TIME": 1627121010414
+      },
+      "Description_69e59363dba8205c4f73498039961992": {
+        "sys_id": "69e59363dba8205c4f73498039961992",
+        "sys_updated_on": "2020-11-24 14:22:53",
+        "SERVER_MOD_TIME": 1606207973000,
+        "LOCAL_MOD_TIME": 1627121012008
+      },
+      "Deployment plan": {
+        "sys_id": "2561241ddb78ac18389f3951f39619e9",
+        "sys_updated_on": "2021-07-08 16:49:02",
+        "SERVER_MOD_TIME": 1625743142000,
+        "LOCAL_MOD_TIME": 1627121015539
+      }
+    }
+  },
+  "Server Development": {
+    "Business Rules": {
+      "Sync Deployment Entry State With Worker": {
+        "sys_id": "0321273ddb1e101057182bfa4b9619cb",
+        "sys_updated_on": "2020-08-07 08:03:38",
+        "SERVER_MOD_TIME": 1596767618000,
+        "LOCAL_MOD_TIME": 1627121001393
+      },
+      "Unique Deployment Step Env per Plan": {
+        "sys_id": "ef62b2e2db0740506c8159b2ca961986",
+        "sys_updated_on": "2020-08-17 17:59:17",
+        "SERVER_MOD_TIME": 1597667357000,
+        "LOCAL_MOD_TIME": 1627121003963
+      },
+      "Update Deployment Plan Config Dep Step": {
+        "sys_id": "de6a8b6adb4740506c8159b2ca961961",
+        "sys_updated_on": "2020-10-14 16:09:57",
+        "SERVER_MOD_TIME": 1602671997000,
+        "LOCAL_MOD_TIME": 1627121004710
+      },
+      "Update Deployment Plan Config Path Step": {
+        "sys_id": "d0b01570dbfe901057182bfa4b9619e8",
+        "sys_updated_on": "2020-08-26 10:10:11",
+        "SERVER_MOD_TIME": 1598416811000,
+        "LOCAL_MOD_TIME": 1627121005047
+      },
+      "Delete Worker after Entry": {
+        "sys_id": "cbfb27d0dbab04106c8159b2ca961990",
+        "sys_updated_on": "2020-03-10 22:29:54",
+        "SERVER_MOD_TIME": 1583859594000,
+        "LOCAL_MOD_TIME": 1627121005062
+      },
+      "Delete Path Steps after Deployment Path": {
+        "sys_id": "bb49ae5adbf6501057182bfa4b96190b",
+        "sys_updated_on": "2020-08-25 12:16:37",
+        "SERVER_MOD_TIME": 1598337997000,
+        "LOCAL_MOD_TIME": 1627121005982
+      },
+      "Update Pipeline Worker Remotely": {
+        "sys_id": "b9d972d0dba704106c8159b2ca961982",
+        "sys_updated_on": "2020-07-24 11:12:22",
+        "SERVER_MOD_TIME": 1595569342000,
+        "LOCAL_MOD_TIME": 1627121006064
+      },
+      "Set Deployment Plan Config": {
+        "sys_id": "b7c67f3adb0b80506c8159b2ca9619f7",
+        "sys_updated_on": "2020-10-14 16:10:42",
+        "SERVER_MOD_TIME": 1602672042000,
+        "LOCAL_MOD_TIME": 1627121006309
+      },
+      "Delete Steps after Deployment Plan": {
+        "sys_id": "845972dedbf6501057182bfa4b96191c",
+        "sys_updated_on": "2020-08-25 13:24:56",
+        "SERVER_MOD_TIME": 1598342096000,
+        "LOCAL_MOD_TIME": 1627121010362
+      },
+      "Handle Pipeline Worker Registration": {
+        "sys_id": "75ec6537db0384506c8159b2ca961976",
+        "sys_updated_on": "2021-06-16 11:37:51",
+        "SERVER_MOD_TIME": 1623823671000,
+        "LOCAL_MOD_TIME": 1627121010799
+      },
+      "Register Worker Log Entry Remote": {
+        "sys_id": "76a5d7a6db8740506c8159b2ca961977",
+        "sys_updated_on": "2020-10-16 08:42:56",
+        "SERVER_MOD_TIME": 1602817976000,
+        "LOCAL_MOD_TIME": 1627121010981
+      },
+      "Delete Worker Log Entries ": {
+        "sys_id": "730b2314dbab04106c8159b2ca9619f4",
+        "sys_updated_on": "2020-03-10 22:28:21",
+        "SERVER_MOD_TIME": 1583859501000,
+        "LOCAL_MOD_TIME": 1627121011241
+      },
+      "Unique Deployment Path Step per Path": {
+        "sys_id": "6b7e4e00db76501057182bfa4b961915",
+        "sys_updated_on": "2020-08-23 22:47:37",
+        "SERVER_MOD_TIME": 1598203057000,
+        "LOCAL_MOD_TIME": 1627121011809
+      },
+      "Update Worker processing env on Insert": {
+        "sys_id": "67947520db0b501057182bfa4b961970",
+        "sys_updated_on": "2020-09-01 08:07:12",
+        "SERVER_MOD_TIME": 1598927832000,
+        "LOCAL_MOD_TIME": 1627121012193
+      }
+    },
+    "UI Actions": {
+      "Deploy Updateset": {
+        "sys_id": "05aa8d1ddb342058389f3951f396195f",
+        "sys_updated_on": "2020-11-29 12:52:08",
+        "SERVER_MOD_TIME": 1606634528000,
+        "LOCAL_MOD_TIME": 1627121001349
+      },
+      "Terminate Deployment": {
+        "sys_id": "0ccaf14adbf7141057182bfa4b9619f4",
+        "sys_updated_on": "2020-10-13 10:17:37",
+        "SERVER_MOD_TIME": 1602564457000,
+        "LOCAL_MOD_TIME": 1627121002562
+      },
+      "Take me to Test": {
+        "sys_id": "a017ddd6db36501057182bfa4b9619b0",
+        "sys_updated_on": "2020-10-05 12:56:12",
+        "SERVER_MOD_TIME": 1601882772000,
+        "LOCAL_MOD_TIME": 1627121009081
+      },
+      "Apply fix": {
+        "sys_id": "7e0af3a5db16101057182bfa4b96197e",
+        "sys_updated_on": "2020-08-14 10:21:09",
+        "SERVER_MOD_TIME": 1597380669000,
+        "LOCAL_MOD_TIME": 1627121010344
+      },
+      "Reject": {
+        "sys_id": "7d648979db32101057182bfa4b9619fc",
+        "sys_updated_on": "2020-10-08 12:14:42",
+        "SERVER_MOD_TIME": 1602139482000,
+        "LOCAL_MOD_TIME": 1627121010461
+      },
+      "Approve": {
+        "sys_id": "4edc5585db32101057182bfa4b961946",
+        "sys_updated_on": "2020-10-08 11:32:45",
+        "SERVER_MOD_TIME": 1602136965000,
+        "LOCAL_MOD_TIME": 1627121013580
+      },
+      "Deploy": {
+        "sys_id": "4d8b705bdbac281c4f73498039961968",
+        "sys_updated_on": "2020-11-24 14:27:14",
+        "SERVER_MOD_TIME": 1606208234000,
+        "LOCAL_MOD_TIME": 1627121013820
+      },
+      "Investigate Remote": {
+        "sys_id": "47a15fd4db2b04106c8159b2ca9619b1",
+        "sys_updated_on": "2020-10-05 12:54:41",
+        "SERVER_MOD_TIME": 1601882681000,
+        "LOCAL_MOD_TIME": 1627121013926
+      },
+      "Show Workflow": {
+        "sys_id": "45bfd42f1be0e0980ea3202a2d4bcbed",
+        "sys_updated_on": "2020-11-23 23:13:35",
+        "SERVER_MOD_TIME": 1606153415000,
+        "LOCAL_MOD_TIME": 1627121014146
+      },
+      "Deploy_43a44690dbe304106c8159b2ca9619a7": {
+        "sys_id": "43a44690dbe304106c8159b2ca9619a7",
+        "sys_updated_on": "2021-07-23 07:43:03",
+        "SERVER_MOD_TIME": 1627006383000,
+        "LOCAL_MOD_TIME": 1627121014169
+      },
+      "Investigate Remote_38a34928dbe2501034f3e37a48961996": {
+        "sys_id": "38a34928dbe2501034f3e37a48961996",
+        "sys_updated_on": "2020-10-05 12:54:16",
+        "SERVER_MOD_TIME": 1601882656000,
+        "LOCAL_MOD_TIME": 1627121014610
+      },
+      "Create Deployment": {
+        "sys_id": "1fe17b6bdb60605c4f73498039961919",
+        "sys_updated_on": "2020-11-24 15:11:30",
+        "SERVER_MOD_TIME": 1606210890000,
+        "LOCAL_MOD_TIME": 1627121015891
+      }
+    },
+    "Script Includes": {
+      "CICDCatalogClientUtils": {
+        "sys_id": "fca438d9db74ec18389f3951f396196d",
+        "sys_updated_on": "2020-11-29 11:14:17",
+        "SERVER_MOD_TIME": 1606628657000,
+        "LOCAL_MOD_TIME": 1627121003360
+      },
+      "StringTemplate": {
+        "sys_id": "d19e3c6adb0f00506c8159b2ca961924",
+        "sys_updated_on": "2020-10-05 12:50:08",
+        "SERVER_MOD_TIME": 1601882408000,
+        "LOCAL_MOD_TIME": 1627121004891
+      },
+      "TimeUtils": {
+        "sys_id": "b37e1137db07901057182bfa4b9619dd",
+        "sys_updated_on": "2021-04-08 09:20:15",
+        "SERVER_MOD_TIME": 1617853815000,
+        "LOCAL_MOD_TIME": 1627121007049
+      },
+      "PipelineReferenceQualifiers": {
+        "sys_id": "a89aedfcdbfe901057182bfa4b961986",
+        "sys_updated_on": "2020-10-05 12:47:35",
+        "SERVER_MOD_TIME": 1601882255000,
+        "LOCAL_MOD_TIME": 1627121008595
+      },
+      "PipelineEnvUtils": {
+        "sys_id": "a6532b22dbc740506c8159b2ca961958",
+        "sys_updated_on": "2020-10-05 12:46:53",
+        "SERVER_MOD_TIME": 1601882213000,
+        "LOCAL_MOD_TIME": 1627121008822
+      },
+      "Thennable": {
+        "sys_id": "96dcc9d0dbefc0106c8159b2ca961975",
+        "sys_updated_on": "2020-03-10 10:59:04",
+        "SERVER_MOD_TIME": 1583818144000,
+        "LOCAL_MOD_TIME": 1627121009420
+      },
+      "GlideRecordUtils": {
+        "sys_id": "96edf8aadb0f00506c8159b2ca961980",
+        "sys_updated_on": "2020-10-05 12:46:26",
+        "SERVER_MOD_TIME": 1601882186000,
+        "LOCAL_MOD_TIME": 1627121009443
+      },
+      "RESTRequest": {
+        "sys_id": "7cb20622db4340506c8159b2ca961971",
+        "sys_updated_on": "2020-10-05 12:49:43",
+        "SERVER_MOD_TIME": 1601882383000,
+        "LOCAL_MOD_TIME": 1627121010437
+      },
+      "UATUtils": {
+        "sys_id": "73152549db32101057182bfa4b9619e2",
+        "sys_updated_on": "2020-10-08 10:14:39",
+        "SERVER_MOD_TIME": 1602132279000,
+        "LOCAL_MOD_TIME": 1627121011310
+      },
+      "PipelineWorkflowUtils": {
+        "sys_id": "6c76b947db172c1c4f734980399619f2",
+        "sys_updated_on": "2021-06-29 10:06:52",
+        "SERVER_MOD_TIME": 1624941412000,
+        "LOCAL_MOD_TIME": 1627121011545
+      },
+      "DeploymentPlanUtils": {
+        "sys_id": "5ea2eea2dbc340506c8159b2ca9619d7",
+        "sys_updated_on": "2021-03-12 09:44:42",
+        "SERVER_MOD_TIME": 1615522482000,
+        "LOCAL_MOD_TIME": 1627121012728
+      },
+      "ATFUtils": {
+        "sys_id": "59d52d40dbd2101057182bfa4b961991",
+        "sys_updated_on": "2020-10-05 12:45:56",
+        "SERVER_MOD_TIME": 1601882156000,
+        "LOCAL_MOD_TIME": 1627121012922
+      },
+      "PipelineUtils": {
+        "sys_id": "58b1ca22db4340506c8159b2ca96190c",
+        "sys_updated_on": "2021-07-08 17:10:28",
+        "SERVER_MOD_TIME": 1625744428000,
+        "LOCAL_MOD_TIME": 1627121013293
+      },
+      "PipelineClientUtils": {
+        "sys_id": "2c3473b6db0b80506c8159b2ca96196c",
+        "sys_updated_on": "2021-07-23 13:33:43",
+        "SERVER_MOD_TIME": 1627027423000,
+        "LOCAL_MOD_TIME": 1627121015159
+      },
+      "RemoteUpdateSetUtils": {
+        "sys_id": "21bccd90dbefc0106c8159b2ca961985",
+        "sys_updated_on": "2021-06-17 08:50:48",
+        "SERVER_MOD_TIME": 1623900048000,
+        "LOCAL_MOD_TIME": 1627121015772
+      },
+      "TypeUtils": {
+        "sys_id": "14cdfc2edb0f00506c8159b2ca9619fd",
+        "sys_updated_on": "2020-02-21 13:01:55",
+        "SERVER_MOD_TIME": 1582270315000,
+        "LOCAL_MOD_TIME": 1627121016387
+      },
+      "cicdUpdateSetUtils": {
+        "sys_id": "18b33dd7db24a81c4f73498039961997",
+        "sys_updated_on": "2020-11-23 19:11:19",
+        "SERVER_MOD_TIME": 1606138879000,
+        "LOCAL_MOD_TIME": 1627121019763
+      }
+    },
+    "Script Actions": {
+      "Deploy Updateset": {
+        "sys_id": "2615c4e3dbec2c1c4f7349803996190a",
+        "sys_updated_on": "2020-11-29 11:26:44",
+        "SERVER_MOD_TIME": 1606629404000,
+        "LOCAL_MOD_TIME": 1627121015570
+      }
+    }
+  },
+  "Client Development": {
+    "Client Scripts": {
+      "OnChange DeploymentStep Raise UAT Task": {
+        "sys_id": "03240c06dbe3101057182bfa4b9619e5",
+        "sys_updated_on": "2020-10-14 16:35:07",
+        "SERVER_MOD_TIME": 1602673507000,
+        "LOCAL_MOD_TIME": 1627121002297
+      },
+      "onLoad Environments": {
+        "sys_id": "eb1cec96db23101057182bfa4b961995",
+        "sys_updated_on": "2020-10-01 09:50:38",
+        "SERVER_MOD_TIME": 1601526038000,
+        "LOCAL_MOD_TIME": 1627121004029
+      },
+      "OnChange Environments Raise Change Req": {
+        "sys_id": "f1f5373ddba3101057182bfa4b96199c",
+        "sys_updated_on": "2020-10-01 08:58:59",
+        "SERVER_MOD_TIME": 1601522939000,
+        "LOCAL_MOD_TIME": 1627121004263
+      },
+      "OnChange DeploymentStep Raise Change Req": {
+        "sys_id": "dd414082dbe3101057182bfa4b961900",
+        "sys_updated_on": "2020-10-01 08:58:12",
+        "SERVER_MOD_TIME": 1601522892000,
+        "LOCAL_MOD_TIME": 1627121004725
+      },
+      "Deployment entry feedback onChange": {
+        "sys_id": "d167e312dbba501057182bfa4b961991",
+        "sys_updated_on": "2020-08-25 18:03:11",
+        "SERVER_MOD_TIME": 1598358791000,
+        "LOCAL_MOD_TIME": 1627121004960
+      },
+      "OnChange DeploymentStep Run Tests": {
+        "sys_id": "73038cc2dbe3101057182bfa4b961917",
+        "sys_updated_on": "2020-10-14 16:34:09",
+        "SERVER_MOD_TIME": 1602673449000,
+        "LOCAL_MOD_TIME": 1627121011272
+      },
+      "Deployment Release Windows onLoad": {
+        "sys_id": "5ab4cdb0db13101057182bfa4b96193e",
+        "sys_updated_on": "2020-09-14 09:30:31",
+        "SERVER_MOD_TIME": 1600056031000,
+        "LOCAL_MOD_TIME": 1627121012779
+      },
+      "OnLoad DeploymentStep": {
+        "sys_id": "264204c2dbe3101057182bfa4b961955",
+        "sys_updated_on": "2020-10-01 08:39:47",
+        "SERVER_MOD_TIME": 1601521787000,
+        "LOCAL_MOD_TIME": 1627121015512
+      }
+    },
+    "UI Policies": {
+      "Manage visibility of fields and sections Deployment Step table": {
+        "sys_id": "6d2c1ef9db6e101057182bfa4b961954",
+        "sys_updated_on": "2020-09-30 11:52:31",
+        "SERVER_MOD_TIME": 1601446951000,
+        "LOCAL_MOD_TIME": 1627121011433
+      },
+      "Shows rejection reason if rejected": {
+        "sys_id": "64bfeb70db87901057182bfa4b961909",
+        "sys_updated_on": "2020-09-02 11:41:55",
+        "SERVER_MOD_TIME": 1599027115000,
+        "LOCAL_MOD_TIME": 1627121012445
+      },
+      "Hide fields onLoad Deployment Entry form": {
+        "sys_id": "302c1a63db9e101057182bfa4b961993",
+        "sys_updated_on": "2021-07-08 17:12:46",
+        "SERVER_MOD_TIME": 1625744566000,
+        "LOCAL_MOD_TIME": 1627121014938
+      },
+      "Set Deployment Test Task field attributes": {
+        "sys_id": "2a6e2eb8dbb2d01057182bfa4b961987",
+        "sys_updated_on": "2020-09-02 11:40:30",
+        "SERVER_MOD_TIME": 1599027030000,
+        "LOCAL_MOD_TIME": 1627121015332
+      }
+    },
+    "UI Scripts": {
+      "glideAjaxRequest": {
+        "sys_id": "2d3cd9abdb8f04506c8159b2ca96196b",
+        "sys_updated_on": "2020-02-24 17:56:10",
+        "SERVER_MOD_TIME": 1582547170000,
+        "LOCAL_MOD_TIME": 1627121015011
+      }
+    }
+  },
+  "Access Control": {
+    "Roles": {
+      "cicd_pipeline_deployer": {
+        "sys_id": "11c7b3efdb53101057182bfa4b9619ae"
+      },
+      "cicd_pipeline_ua_tester": {
+        "sys_id": "6cd9bfefdb53101057182bfa4b96192a"
+      },
+      "cicd_pipeline_worker": {
+        "sys_id": "be23817bdb2a101057182bfa4b9619d6"
+      },
+      "cicd_pipeline_admin": {
+        "sys_id": "de1bb1c3dbd3101057182bfa4b961917"
+      }
+    }
+  },
+  "Forms & UI": {
+    "List Controls": {
+      "u_deployment_entry": {
+        "sys_id": "14573202db62101057182bfa4b961904"
+      },
+      "u_worker_log_entry": {
+        "sys_id": "4f083e02db62101057182bfa4b961962"
+      },
+      "u_pipeline_worker": {
+        "sys_id": "6b78fa02db62101057182bfa4b9619bc"
+      },
+      "u_worker_log_entry_e38bb2c2db62101057182bfa4b961965": {
+        "sys_id": "e38bb2c2db62101057182bfa4b961965"
+      },
+      "u_pipeline_worker_ffd77a02db62101057182bfa4b96193c": {
+        "sys_id": "ffd77a02db62101057182bfa4b96193c"
+      }
+    },
+    "UI Macros": {
+      "ci.cd.deployment.step.task.assignment.group": {
+        "sys_id": "fbfce0f8db7e901057182bfa4b961992",
+        "sys_updated_on": "2020-09-10 22:38:30",
+        "SERVER_MOD_TIME": 1599757710000,
+        "LOCAL_MOD_TIME": 1627121003255
+      },
+      "ci.cd.deployment.step.test.select": {
+        "sys_id": "ae5ae904dbd2101057182bfa4b9619f5",
+        "sys_updated_on": "2020-10-14 16:22:43",
+        "SERVER_MOD_TIME": 1602672763000,
+        "LOCAL_MOD_TIME": 1627121008595
+      },
+      "ci.cd.deployment.step.task.assignment.user": {
+        "sys_id": "5a275f90db72901057182bfa4b96198d",
+        "sys_updated_on": "2020-09-10 22:34:52",
+        "SERVER_MOD_TIME": 1599757492000,
+        "LOCAL_MOD_TIME": 1627121012801
+      }
+    },
+    "View Rules": {
+      "Pipelineworker": {
+        "sys_id": "b1aad915dbfc2058389f3951f39619ab",
+        "sys_updated_on": "2020-11-29 13:58:42",
+        "SERVER_MOD_TIME": 1606638522000,
+        "LOCAL_MOD_TIME": 1627121007965
+      }
+    }
+  },
+  "Data Model": {
+    "Tables": {
+      "Deployment Entry": {
+        "sys_id": "1842ce9cdba304106c8159b2ca961935"
+      },
+      "Deployment Entry Tracker": {
+        "sys_id": "3706ef04db33101057182bfa4b961934"
+      },
+      "Worker Log Entry": {
+        "sys_id": "620f396edb0340506c8159b2ca961946"
+      },
+      "Deployment Plan": {
+        "sys_id": "7809bf2adb0b40506c8159b2ca961943"
+      },
+      "Deployment Path Step": {
+        "sys_id": "8427e5bfdb6a101057182bfa4b9619cd"
+      },
+      "Deployment Path": {
+        "sys_id": "88efb4b7db2a101057182bfa4b961945"
+      },
+      "Deployment Release Windows": {
+        "sys_id": "99745707db0f101057182bfa4b96198c"
+      },
+      "Deployment Test Task": {
+        "sys_id": "d8428454db7a501057182bfa4b96198c"
+      },
+      "Environments": {
+        "sys_id": "dc0df837db2a101057182bfa4b9619df"
+      },
+      "Pipeline Worker": {
+        "sys_id": "e79bbcaadb0f00506c8159b2ca961912"
+      },
+      "Deployment Step": {
+        "sys_id": "fee0f662db0740506c8159b2ca961921"
+      }
+    }
+  },
+  "Properties": {
+    "System Property Categories": {
+      "Environment Config": {
+        "sys_id": "1c30b772db0b80506c8159b2ca96199a",
+        "sys_updated_on": "2020-02-22 20:39:40",
+        "SERVER_MOD_TIME": 1582384180000,
+        "LOCAL_MOD_TIME": 1627121016050
+      }
+    }
+  },
+  "Service Catalog": {
+    "Record Producers": {
+      "Servicenow CICD Deploy Updateset": {
+        "sys_id": "258ad891dbb4ac18389f3951f39619bd"
+      },
+      "Servicenow CICD Citizen Developer Deployment": {
+        "sys_id": "52f193a3db68205c4f73498039961949"
+      }
+    },
+    "Catalog Client Scripts": {
+      "Prepopulate form": {
+        "sys_id": "f0e2ebe3db6c205c4f734980399619c6",
+        "sys_updated_on": "2020-11-25 03:01:25",
+        "SERVER_MOD_TIME": 1606253485000,
+        "LOCAL_MOD_TIME": 1627121003624
+      },
+      "OnLoad Field Rules": {
+        "sys_id": "c7c8c0a487d17850967fa9383cbb35a6",
+        "sys_updated_on": "2021-07-23 14:23:57",
+        "SERVER_MOD_TIME": 1627030437000,
+        "LOCAL_MOD_TIME": 1627121005782
+      }
+    }
+  },
+  "Inbound Integrations": {
+    "Scripted REST Resources": {
+      "Update Deployment Entry Tracker": {
+        "sys_id": "e756e060db3f101057182bfa4b96198d",
+        "sys_updated_on": "2020-10-14 09:37:00",
+        "SERVER_MOD_TIME": 1602648420000,
+        "LOCAL_MOD_TIME": 1627121004123
+      },
+      "Register Entry Awaiting Transfer": {
+        "sys_id": "e6e21db1db72101057182bfa4b961969",
+        "sys_updated_on": "2020-10-05 12:59:49",
+        "SERVER_MOD_TIME": 1601882989000,
+        "LOCAL_MOD_TIME": 1627121004171
+      },
+      "Register Worker Log Entry": {
+        "sys_id": "d68ad766db8740506c8159b2ca9619d8",
+        "sys_updated_on": "2020-10-14 09:36:47",
+        "SERVER_MOD_TIME": 1602648407000,
+        "LOCAL_MOD_TIME": 1627121004853
+      },
+      "Update Deployment Entry": {
+        "sys_id": "bc3d0312db7a501057182bfa4b9619b9",
+        "sys_updated_on": "2020-10-14 09:37:13",
+        "SERVER_MOD_TIME": 1602648433000,
+        "LOCAL_MOD_TIME": 1627121005999
+      },
+      "CancelDeployment": {
+        "sys_id": "9797bd991b20e4182a2d202e6e4bcb27",
+        "sys_updated_on": "2020-11-17 23:22:33",
+        "SERVER_MOD_TIME": 1605635553000,
+        "LOCAL_MOD_TIME": 1627121009275
+      },
+      "Create Testing Task": {
+        "sys_id": "57ee99c5db32101057182bfa4b96197e",
+        "sys_updated_on": "2020-10-14 09:35:56",
+        "SERVER_MOD_TIME": 1602648356000,
+        "LOCAL_MOD_TIME": 1627121013038
+      },
+      "Register Pipeline Worker": {
+        "sys_id": "494cc36edb4740506c8159b2ca9619d6",
+        "sys_updated_on": "2020-10-14 09:36:33",
+        "SERVER_MOD_TIME": 1602648393000,
+        "LOCAL_MOD_TIME": 1627121013868
+      }
+    }
+  }
+}

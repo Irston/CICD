@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate  jelly="true" object="true"  var="jvar_tests">
+		var RESTRequest = global.RESTRequest;
+		var pass = new GlideEncrypter().decrypt('$[current.u_environment.u_auth_profile.password]');
+		var result = null;
+		RESTRequest.get({
+			endpoint: '$[current.u_environment.u_env_address]' + '/api/now/table/sys_atf_test?sysparm_fields=sys_id,name,description&amp;sysparm_query=active=true',
+			auth: {
+				username: '$[current.u_environment.u_auth_profile.username]',
+				password: pass
+			}
+		},
+		function(error, answer) {
+			if (error || !answer) {
+		gs.info('THE ERROR');
+		gs.info(JSON.stringify(error));
+		gs.info('$[current.u_environment.u_auth_profile.username]');
+		gs.info(pass);
+				return result;
+			}
+			result = answer.result.sort(function(a, b) {
+				return a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1;
+			});
+			return result;
+		})
+	</g2:evaluate>
+	<style>
+		.tests-form-group {
+		text-align: center;
+		margin-top: 50px;
+		}
+	</style>
+	<body class="testBodyClass">
+		<div class="tests-form-group">
+			<j2:if test="$[jvar_tests.length == undefined]">Please select a valid target env and auth profile in order to load the available tests</j2:if>
+			<j2:if test="$[jvar_tests.length >= 0]">
+				<select id="testMultiSelect" onchange="selectChange()"  multiple="multiple">
+					<j2:forEach items="$[jvar_tests]" var="jvar_test">
+						<option value="$[jvar_test.sys_id]">$[jvar_test.name]</option>
+					</j2:forEach>
+				</select>
+				<br></br>
+				<button type="button" onclick="clearSelectedTests()">Clear selected tests</button>
+			</j2:if>
+		</div>
+		<script>
+			function markSelected() {
+				var tests = g_form.getValue('u_tests');
+				if(!tests || tests.length == 0) {
+					return;
+				}
+				
+				var options = Array.prototype.slice.call(gel('testMultiSelect').options);
+				tests.split(',').forEach(function(test) {
+					options.some(function(opt, index) {
+						if(opt.value == test) {
+							opt.selected = true;
+							return true;
+						}
+			
+						return false;
+					});
+				})
+			}
+			
+			addLoadEvent(function() {  
+				markSelected();  
+			});
+			
+			function selectChange() {
+				var selected = gel('testMultiSelect').options;
+				var selectedArr = Array.prototype.slice.call(selected);
+				var ids = selectedArr.reduce(function(acc, curr) {
+					if(curr.selected) {
+						acc.push(curr.value);
+					}
+					return acc;
+				}, []).join(',');
+				g_form.setValue('u_tests', ids);
+			}
+			
+			function clearSelectedTests() {
+				gel('testMultiSelect').selectedIndex = -1;
+				g_form.setValue('u_tests', '');
+			}
+		</script>
+	</body>
+</j:jelly>
